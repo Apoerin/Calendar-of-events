@@ -1,0 +1,60 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  max-width: 100%;
+  height: 200px;
+  max-height: 100%;
+  z-index: 100;
+  background-color: #fff;
+  border: 1px solid #42398c;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 40;
+  background-color: #c1c5f1;
+  opacity: 0.1;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: Rockwell, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #42398c;
+}
+
+.form-group input {
+  margin: 10px 40px;
+  border: none;
+  border-bottom: 1px solid #42398c;
+  width: 80%;
+  height: 25px;
+  font-size: 20px;
+  outline: none;
+}
+
+.modal-footer {
+  margin: 20px 110px;
+}
+button {
+  color: #42398c;
+  border: 1px solid #42398c;
+  background-color: #fff;
+  border-radius: 8%;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #42398c;
+  color: #fff;
+}
