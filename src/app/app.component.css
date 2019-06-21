@@ -1,0 +1,73 @@
+div {
+  max-width: 100%;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Rockwell, sans-serif;
+}
+
+h2, h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgba(138, 7, 255, 0.56);
+}
+
+.btn {
+  color: #42398c;
+  border: 1px solid #42398c;
+  background-color: #fff;
+  border-radius: 8%;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #42398c;
+  color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.calendar {
+  max-width: 100%;
+  margin: 50px 0;
+}
+
+.day-of-week {
+  font-size: 18px;
+  font-weight: lighter;
+  background-color: rgba(138, 7, 255, 0.56);
+  color: #fff;
+  border-right: 1px solid #fff;
+  padding: 10px 0;
+  width: 140px;
+}
+
+.day-of-month {
+  position: relative;
+  overflow: hidden;
+  height: 140px;
+  border: 1px solid #c9c9c9;
+}
+
+.day-number {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  display: block;
+  font-size: 18px;
+  color: #42398c;
+}
+
+.btn-add {
+  color: #fff;
+  border: none;
+  background-color: #fff;
+  border-radius: 8%;
+  padding: 55px 35px;
+  cursor: pointer;
+  outline: none;
+}
